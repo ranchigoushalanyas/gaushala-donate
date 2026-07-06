@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donate to Ranchi Goushala Nyas</title>
+<style>
+  body {
+    font-family: -apple-system, Roboto, Arial, sans-serif;
+    background: #f4f6f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .card {
+    background: #fff;
+    max-width: 420px;
+    width: 90%;
+    margin: 24px auto;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    text-align: center;
+  }
+  h1 {
+    font-size: 20px;
+    color: #2e4a1f;
+    margin-bottom: 8px;
+  }
+  p.sub {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .upi-id {
+    background: #f0f4ea;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 24px;
+    word-break: break-all;
+  }
+  .pay-btn {
+    display: inline-block;
+    background: #2e7d32;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .pay-btn:active {
+    background: #1b5e20;
+  }
+  .hint {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>🙏 Ranchi Goushala Nyas</h1>
+    <p class="sub">Thank you for supporting our gaushala. Tap below to pay via any UPI app.</p>
+    <div class="upi-id">UPI ID: paytm.s25nodu@pty</div>
+    <a class="pay-btn" id="payBtn" href="upi://pay?pa=paytm.s25nodu@pty&pn=Ranchi%20Goushala%20Nyas&cu=INR">
+      Pay Now via UPI
+    </a>
+    <p class="hint">If nothing happens, please make sure you have a UPI app (GPay, PhonePe, Paytm, etc.) installed and open this page directly in Chrome/Safari (not inside another app's browser).</p>
+  </div>
+</body>
+</html>
